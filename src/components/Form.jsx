@@ -148,7 +148,7 @@ const Form = () => {
         <div className="flex flex-col justify-space-between gap-4 bg-gradient-to-br from-violet-700 via-indigo-700 to-slate-900 p-6 text-white sm:p-8 lg:p-10 xl:p-14 sticky ">
           <div className="flex flex-col gap-6">
             <div className="inline-flex w-fit items-center rounded-xl bg-white p-2 shadow-md">
-              <a href="https://www.vcloudmaster.com/">
+              <a href="https://www.vcloudmaster.com/" target="_blank" rel="noopener noreferrer">
                 <img
                   src="https://www.vcloudmaster.com/assets/logo_3-CaoEdpo9.png"
                   alt="vcloudmaster"
@@ -401,7 +401,7 @@ const Form = () => {
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
               
-                href="/VcloudmasterDeck-2.pdf"
+                href="/AWS_AI_READINESS_CHECKLIST.pdf"
                 download
                 className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-violet-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-700"
               >
@@ -427,8 +427,3 @@ export default Form
 
 
 
-const  button=()=>{
-  return (
-    <Button title="Submit"/>
-  )
-}
