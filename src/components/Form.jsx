@@ -401,12 +401,12 @@ const Form = () => {
             <div className="mt-6 flex flex-col gap-3 sm:flex-row">
               <a
               
-                href="#"
+                href="/AI_Infrastructure_Readiness_Checklist_3.pdf"
                 download
                 className="inline-flex flex-1 items-center justify-center gap-2 rounded-xl bg-violet-600 px-4 py-2.5 text-sm font-semibold text-white transition hover:bg-violet-700"
               >
                 <IconDownload className="h-4 w-4" />
-                  {/* Download */}
+                  Download
               </a>
               <button
                 type="button"
